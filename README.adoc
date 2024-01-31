@@ -1,0 +1,16 @@
+
+A closure passed as the last argument to a function can appear immediately after the parentheses. When a closure is the only argument to a function, you can omit the parentheses entirely.
+----
+let sortedNumbers = numbers.sorted { $0 > $1 }
+print(sortedNumbers)
+// Prints "[20, 19, 12, 7]"
+----
+
+structures are always copied, but classes are passed by reference. <<2>>
+
+Assertions are checked only in debug builds, but preconditions are checked in both debug and production builds.
+
+
+<1> https://cs193p.sites.stanford.edu/2023
+<2> https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour/
+<3> https://www.swift.org/documentation/api-design-guidelines/
