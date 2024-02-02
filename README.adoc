@@ -11,6 +11,12 @@ structures are always copied, but classes are passed by reference. <<2>>
 Assertions are checked only in debug builds, but preconditions are checked in both debug and production builds.
 
 
+.Reference Types
+- functions
+- Closures https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures#Closures-Are-Reference-Types
+- Classes https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures#Classes-Are-Reference-Types
+
+
 <1> https://cs193p.sites.stanford.edu/2023
 <2> https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour/
 <3> https://www.swift.org/documentation/api-design-guidelines/
